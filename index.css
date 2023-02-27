@@ -1,0 +1,273 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-image: linear-gradient(to left, #544a38, darkgray);
+}
+.fixed {
+  position: fixed;
+  background-color: rgb(28, 25, 25);
+  width: 250px;
+  height: 100%;
+}
+.media_box {
+  cursor: pointer;
+  padding: 20px 0 10px 30px;
+}
+.space {
+  display: flex;
+  align-items: center;
+  color: azure;
+  padding: 30px;
+  font-size: 20px;
+}
+.space h2 {
+  cursor: pointer;
+  padding-left: 5px;
+}
+.bxl-spotify {
+  color: #fff;
+  font-size: 50px;
+}
+.home {
+  display: flex;
+  align-items: center;
+  color: azure;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.home h3 {
+  cursor: pointer;
+  padding-left: 10px;
+}
+.home h3:hover {
+  color: darkgrey;
+}
+.bx-home {
+  color: #fff;
+  font-size: 30px;
+}
+.search {
+  display: flex;
+  align-items: center;
+  color: azure;
+  font-size: 14px;
+  padding-bottom: 10px;
+}
+.search h3 {
+  cursor: pointer;
+  padding-left: 10px;
+}
+.search h3:hover {
+  color: darkgray;
+}
+.bx-search {
+  font-size: 30px;
+  color: #fff;
+}
+.media {
+  display: flex;
+  align-items: center;
+  color: azure;
+  font-size: 14px;
+}
+.media h3 {
+  padding-left: 10px;
+}
+.media h3:hover {
+  color: darkgray;
+}
+.bxl-deezer {
+  color: #fff;
+  font-size: 30px;
+}
+.boxplus {
+  cursor: pointer;
+  padding: 20px 0 0 30px;
+}
+.boxplus h3 {
+  padding-left: 10px;
+  font-size: 14px;
+}
+.boxplus h3:hover {
+  color: darkgray;
+}
+.Playlist {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  padding-bottom: 10px;
+}
+
+.bxs-plus-square {
+  color: #fff;
+  font-size: 30px;
+}
+.heart {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  cursor: pointer;
+}
+.heart:hover {
+  color: darkgray;
+}
+.bx-heart-square {
+  font-size: 30px;
+  color: #fff;
+}
+hr {
+  border: 0.5px solid darkgray;
+  margin: 15px 20px;
+}
+
+/* section main */
+.audio {
+  background-image: url(./image/tun.jpg);
+  width: 100%;
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+}
+.audio .arrow {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 300px;
+  padding-top: 20px;
+}
+.bx-chevron-left {
+  cursor: pointer;
+  font-size: 40px;
+  color: #fff;
+  background-color: #40341f;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+.bx-chevron-right {
+  cursor: pointer;
+  font-size: 40px;
+  color: #fff;
+  background-color: #40341f;
+  border-radius: 50%;
+}
+.right {
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+.right h4 {
+  border: 1px solid rgb(117, 108, 108);
+  border-radius: 30px;
+  padding: 5px 10px;
+  color: #fff;
+  font-size: 14px;
+}
+.right h4:hover {
+  border: 1px solid #fff;
+  transform: scale(1.1);
+}
+.right h5 {
+  display: flex;
+  align-items: center;
+  color: #fff;
+  font-size: 13px;
+  background-color: #000;
+  border-radius: 30px;
+  padding: 0px 2px;
+  margin: 0 20px 0 20px;
+}
+.right h5:hover {
+  background-color: #40341f;
+  transition: all 0.3s;
+}
+.right .bxs-user-circle {
+  color: darkgray;
+  font-size: 30px;
+  padding-right: 5px;
+}
+
+.check {
+  margin-left: 270px;
+  padding-top: 100px;
+}
+
+.check h5 {
+  color: #fff;
+  font-size: 14px;
+}
+.bx-check {
+  background-color: rgb(36, 165, 212);
+  padding: 5px;
+  border-radius: 50%;
+  margin-right: 5px;
+}
+.check h1 {
+  color: #fff;
+  font-size: 70px;
+}
+/* section play */
+.play_check {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  gap: 20px;
+  margin-left: 260px;
+  margin-right: 20px;
+  padding-top: 40px;
+}
+.play_box {
+  background-color: #000;
+  border-radius: 5px;
+  position: relative;
+  text-decoration: none;
+}
+.play_box:hover {
+  background-color: #55534f;
+}
+.play_box img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  padding: 10px;
+  border-radius: 15px;
+}
+.play_box h3 {
+  color: #fff;
+  text-align: center;
+}
+.play_box h5 {
+  color: darkgray;
+  padding: 10px 0 25px 30px;
+  font-weight: 300;
+  font-size: 15px;
+}
+button {
+  position: absolute;
+  background-color: rgb(25, 215, 152);
+  border-radius: 50%;
+  border: none;
+  outline: none;
+  padding-left: 4px;
+  top: 45%;
+  left: 60%;
+  opacity: 0;
+}
+button:hover {
+  opacity: 1;
+  transition: all 0.5s;
+}
+button .bx-play {
+  color: #000;
+  font-size: 60px;
+}
+
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #1db954;
+}
